@@ -44,7 +44,7 @@ status: draft
 - 为「提示词版本 / 上下文快照 / 工具调用链 / 模型输出」建立基本的审计记录，便于事后复盘。
 - 将关键事件（模型调用、工具执行、失败重试、人工干预）打入指标和 Trace，配合 0004 中的监控方案使用。
 
-在编写本目录下的具体工程设计文档（如 `prompt-engineering.md`、`context-engineering.md`、`control-engineering.md`）时，建议针对上述每一点给出：
+在编写本目录下的具体工程设计文档（如 `prompt-engineering.md`、`context-engineering.md`、`harness-engineering.md`）时，建议针对上述每一点给出：
 
 - 当前工程实践的设计思路。
 - 已知优势与风险点。
