@@ -23,12 +23,13 @@
 
 ### 现有 `decisions/` 子目录说明
 
-当前已存在的四个决策目录分别用于：
+当前已存在的几个决策目录分别用于：
 
 - `0001-vector-db-selection/`：向量数据库选型，例如 Postgres + pgvector、Qdrant、Milvus 等，在这里对比检索性能、运维复杂度、成本与生态。
 - `0002-agent-orchestration-framework-selection/`：智能体编排框架选型，如 LangGraph、Custom Orchestrator、CrewAI / AutoGen 等，用于比较易用性、可观测性、可扩展性和与现有系统的集成方式。
 - `0003-model-and-inference-service-selection/`：模型与推理服务选型，涵盖直连厂商 API、自建 / 第三方推理网关等，主要关注成本、性能、可用性、多模型切换能力等维度。
 - `0004-observability-and-logging-selection/`：可观测性与日志方案选型，例如仅日志、Prometheus + Grafana、自建或 SaaS 观测平台，用于评估在不同规模下的监控告警、日志分析与运维体验。
+- `0005-engineering-design/`：工程设计主线，聚焦提示词工程、上下文工程、驭控工程（Harness Engineering）等工程性主题，用于沉淀「如何在真实项目中驱动和约束模型」的共性方法与实践。
 
 ## 使用建议
 
