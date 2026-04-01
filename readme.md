@@ -31,6 +31,7 @@
 - `0004-observability-and-logging-selection/`：可观测性与日志方案选型，例如仅日志、Prometheus + Grafana、自建或 SaaS 观测平台，用于评估在不同规模下的监控告警、日志分析与运维体验。
  - `0005-engineering-design/`：工程设计主线，聚焦提示词工程、上下文工程、驭控工程（Harness Engineering）等工程性主题，用于沉淀「如何在真实项目中驱动和约束模型」的共性方法与实践。
  - `0006-foundation-models-selection/`：大模型厂商与版本选型，每个主流厂商一个子文档，对比 OpenAI、Anthropic Claude、Google Gemini、Meta Llama、Mistral、Qwen 等模型家族及其主要版本（能力、成本、多模态、上下文长度等），为各 `scene-*/architecture-overview.md` 中第 4 章的模型选型提供参考。
+ - `0007-agent-testing-strategy-selection/`：Agent 测试与评估方案选型，聚焦如何设计 Eval 集、回归测试、在线指标、人审抽检、高危行为测试等，帮助在不同场景下选择合适的测试策略组合。
 
 ## 使用建议
 
