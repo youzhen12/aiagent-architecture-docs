@@ -110,6 +110,10 @@ scene_id: scene-xxxx         # 可选：场景唯一标识
 ## 4.5 其他关键技术
 
 - 若本场景还有其他关键技术选型（如：消息队列、中间件、配置中心、缓存、鉴权方案等），可按以下模板继续补充：
+- 特别建议在本节中至少考虑以下三个工程维度（可按 4.5.1 / 4.5.2 / 4.5.3 等形式展开）：
+  - Prompt & Context 架构：如何拆分和装配 System Prompt，各类 Section（身份与定位、做事哲学、风险规则、工具使用规则、Session 指引等）如何组织，以及上下文来源（RAG / memory / transcript / MCP instructions 等）如何组合与压缩。
+  - 工具运行时 + 权限 + Hooks 的驭控层：工具执行链路（输入校验 → PreHook → 权限决策 → 执行 → PostHook/FailureHook → Telemetry）在本场景的设计，以及高危操作分类与权限模型如何落地。
+  - Agent 专业化与 Skill/Plugin/MCP 生态：是否拆分 Explore / Plan / Verification 等专职 Agent，如何通过 Skill / Plugin / MCP 将常见工作流与外部系统能力「模型可感知化」。
 
 ### 4.5.x <技术类别名称>
 
