@@ -73,7 +73,8 @@ scene_id: scene-customer-support
   - 直接厂商 API：集成简单，但多厂商支持和统一治理困难。
   - 第三方统一网关：接入快，但可控性与合规性不如自建。
 - 相关决策文档：
-  - `../aia-agent-architecture/decisions/0003-model-and-inference-service-selection/`
+  - `aia-agent-architecture/decisions/0003-model-and-inference-service-selection.md`
+  - `aia-agent-architecture/decisions/0006-foundation-models-selection.md`
 
 ## 4.2 向量数据库与检索方案
 
@@ -86,7 +87,7 @@ scene_id: scene-customer-support
   - PostgreSQL + pgvector：结构化数据和向量共存，初期简单，但在高并发检索下性能略弱。
   - Milvus：更适合极大规模向量场景，当前客服规模下可能偏重。
 - 相关决策文档：
-  - `../aia-agent-architecture/decisions/0001-vector-db-selection/`
+  - `aia-agent-architecture/decisions/0001-vector-db-selection.md`
 
 ## 4.3 Agent 编排框架
 
@@ -98,7 +99,7 @@ scene_id: scene-customer-support
   - 自研状态机：完全定制但成本高，易重复造轮子。
   - 高层 Agent 框架（CrewAI/AutoGen）：上手快，但生产可控性和集成度有限。
 - 相关决策文档：
-  - `../aia-agent-architecture/decisions/0002-agent-orchestration-framework-selection/`
+  - `aia-agent-architecture/decisions/0002-agent-orchestration-framework-selection.md`
 
 ## 4.4 可观测性与日志方案
 
@@ -107,7 +108,7 @@ scene_id: scene-customer-support
 - 选择原因：
   - 易与现有运维体系对齐，方便统一监控 AI 与非 AI 组件。
 - 相关决策文档：
-  - `../aia-agent-architecture/decisions/0004-observability-and-logging-selection/`
+  - `aia-agent-architecture/decisions/0004-observability-and-logging-selection.md`
 
 ## 4.5 其他关键技术
 

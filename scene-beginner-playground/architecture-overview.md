@@ -86,9 +86,9 @@ scene_id: scene-beginner-playground
 
 # 6. 关联文档
 
-- `aia-agent-architecture/architecture-overview-temp.md`
-- `aia-agent-architecture/decisions/0001-vector-db-selection/`
-- `aia-agent-architecture/decisions/0002-agent-orchestration-framework-selection/`
-- `aia-agent-architecture/decisions/0003-model-and-inference-service-selection/`
-- `aia-agent-architecture/decisions/0004-observability-and-logging-selection/`
-- `aia-agent-architecture/decisions/0005-engineering-design/`
+- `aia-agent-architecture/overview.md`
+- `aia-agent-architecture/decisions/0001-vector-db-selection.md`
+- `aia-agent-architecture/decisions/0002-agent-orchestration-framework-selection.md`
+- `aia-agent-architecture/decisions/0003-model-and-inference-service-selection.md`
+- `aia-agent-architecture/decisions/0004-observability-and-logging-selection.md`
+- `aia-agent-architecture/decisions/0005-engineering-design.md`

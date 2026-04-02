@@ -68,9 +68,9 @@ scene_id: scene-personal-assistant
 - 选择原因：
   - 对个人场景而言，工程复杂度和成本比「极致效果」更重要，优先选择易用/稳定的模型；
   - 可以从「一个模型」开始，未来再根据需要引入更多模型或自建小型网关。
-- 相关文档：
-  - `aia-agent-architecture/decisions/0003-model-and-inference-service-selection/`
-  - `aia-agent-architecture/decisions/0006-foundation-models-selection/`
+- 相关决策文档：
+  - `aia-agent-architecture/decisions/0003-model-and-inference-service-selection.md`
+  - `aia-agent-architecture/decisions/0006-foundation-models-selection.md`
 
 ## 4.2 向量数据库与检索方案
 
@@ -84,8 +84,8 @@ scene_id: scene-personal-assistant
 - 选择原因：
   - 大多数个人场景数据量有限，维护专用向量数据库的成本过高；
   - pgvector 与 SQLite/PG 的组合足以支撑几十万级别文档的检索。
-- 相关文档：
-  - `aia-agent-architecture/decisions/0001-vector-db-selection/`
+- 相关决策文档：
+  - `aia-agent-architecture/decisions/0001-vector-db-selection.md`
 
 ## 4.3 Agent 编排框架
 
@@ -99,8 +99,8 @@ scene_id: scene-personal-assistant
 - 选择原因：
   - 个人场景核心目标是学习与效率，尽量避免在一开始投入过多精力到复杂编排基础设施；
   - LangGraph 提供的图式编排和 checkpoint 特性，对「定时汇总/多步生成」这类工作流非常有用。
-- 相关文档：
-  - `aia-agent-architecture/decisions/0002-agent-orchestration-framework-selection/`
+- 相关决策文档：
+  - `aia-agent-architecture/decisions/0002-agent-orchestration-framework-selection.md`
 
 ## 4.4 可观测性与日志方案
 
@@ -112,8 +112,8 @@ scene_id: scene-personal-assistant
 - 选择原因：
   - 个人场景下，复杂观测平台价值有限，日志足以用于调试与简单统计；
   - 关注点主要是「我到底调用了多少次模型」「哪些工作流最常用」。
-- 相关文档：
-  - `aia-agent-architecture/decisions/0004-observability-and-logging-selection/`
+- 相关决策文档：
+  - `aia-agent-architecture/decisions/0004-observability-and-logging-selection.md`
 
 ## 4.5 工程设计侧重点（0005）
 

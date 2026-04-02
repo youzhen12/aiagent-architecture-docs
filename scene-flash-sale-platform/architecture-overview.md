@@ -84,8 +84,8 @@ scene_id: scene-flash-sale-platform
   - 直接厂商 API：接入简单，但多厂商时治理困难、隐性锁定严重；
   - 第三方推理网关（OpenRouter等）：上手快，但合规与控制力不如自建网关。
 - 相关决策文档：
-  - `aia-agent-architecture/decisions/0003-model-and-inference-service-selection/`
-  - `aia-agent-architecture/decisions/0006-foundation-models-selection/`
+  - `aia-agent-architecture/decisions/0003-model-and-inference-service-selection.md`
+  - `aia-agent-architecture/decisions/0006-foundation-models-selection.md`
 
 ## 4.2 向量数据库与检索方案
 
@@ -99,7 +99,7 @@ scene_id: scene-flash-sale-platform
   - 仅用关系型数据库 + pgvector：简单易用，但在峰值 QPS 和数据规模上存在天花板；
   - 搜索引擎内置向量检索（Elasticsearch/OpenSearch）：可以一站式使用，但向量能力偏弱、调优成本高。
 - 相关决策文档：
-  - `aia-agent-architecture/decisions/0001-vector-db-selection/`
+  - `aia-agent-architecture/decisions/0001-vector-db-selection.md`
 
 ## 4.3 Agent 编排框架
 
@@ -114,7 +114,7 @@ scene_id: scene-flash-sale-platform
   - 完全自研：自由度最大，但容易重复造轮子、维护成本高；
   - 单纯使用高层框架（CrewAI/AutoGen）：适合 Demo，不适合作为长期编排内核。
 - 相关决策文档：
-  - `aia-agent-architecture/decisions/0002-agent-orchestration-framework-selection/`
+  - `aia-agent-architecture/decisions/0002-agent-orchestration-framework-selection.md`
 
 ## 4.4 可观测性与日志方案
 
@@ -126,7 +126,7 @@ scene_id: scene-flash-sale-platform
   - 秒杀场景对性能和稳定性要求高，需要端到端观测能力，且要与现有系统统一；
   - LLM/Agent 的行为需要被视为可观测的组件，纳入统一监控体系。
 - 相关决策文档：
-  - `aia-agent-architecture/decisions/0004-observability-and-logging-selection/`
+  - `aia-agent-architecture/decisions/0004-observability-and-logging-selection.md`
 
 ## 4.5 其他关键技术
 

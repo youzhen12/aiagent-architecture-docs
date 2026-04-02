@@ -70,7 +70,8 @@ scene_id: scene-saas-platform-agent
   - 平台场景中模型调用频繁且角色多样，需要在成本与质量之间灵活切换模型。
   - 模型网关统一处理鉴权、限流和审计，简化各前端和 Agent 的集成。
 - 相关决策文档：
-  - `../aia-agent-architecture/decisions/0003-model-and-inference-service-selection/`
+  - `aia-agent-architecture/decisions/0003-model-and-inference-service-selection.md`
+  - `aia-agent-architecture/decisions/0006-foundation-models-selection.md`
 
 ## 4.2 向量数据库与文档检索
 
@@ -79,7 +80,7 @@ scene_id: scene-saas-platform-agent
 - 选择原因：
   - SaaS 文档通常体量较大且结构多样，需要优秀的向量检索 + 过滤能力支撑 RAG 问答与配置建议。
 - 相关决策文档：
-  - `../aia-agent-architecture/decisions/0001-vector-db-selection/`
+  - `aia-agent-architecture/decisions/0001-vector-db-selection.md`
 
 ## 4.3 Agent 编排框架
 
@@ -88,14 +89,14 @@ scene_id: scene-saas-platform-agent
 - 选择原因：
   - 不同角色 Agent 之间需要协调（例如 AdminAgent 调用 OpsAgent 或 DevAgent 的子流程），图式编排便于表达和控制。
 - 相关决策文档：
-  - `../aia-agent-architecture/decisions/0002-agent-orchestration-framework-selection/`
+  - `aia-agent-architecture/decisions/0002-agent-orchestration-framework-selection.md`
 
 ## 4.4 可观测性与日志方案
 
 - 选型结论（推荐）：
   - 沿用平台现有 Prometheus + Grafana + 日志平台体系，并通过 OpenTelemetry 打通 AI 调用链 Trace。
 - 相关决策文档：
-  - `../aia-agent-architecture/decisions/0004-observability-and-logging-selection/`
+  - `aia-agent-architecture/decisions/0004-observability-and-logging-selection.md`
 
 ## 4.5 其他关键技术
 
