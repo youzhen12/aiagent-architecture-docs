@@ -6,31 +6,35 @@ owner: [负责人]
 last_updated: YYYY-MM-DD
 ---
 
-## 1. 场景分组总览
+## 1. 场景分组总览（按 SaaS / 行业赛道）
 
-- SaaS / 企业软件：
+- SaaS / 企业软件（ERP / CRM / OA / HR / 项目管理等）：
   - SaaS 平台内嵌 Agent / 管理后台助手：
     - 架构：`scene-saas-platform-agent/architecture-overview.md`
     - AI 需求与价值：`scene-saas-platform-agent/ai-application-overview.md`
     - MaaS 方案：`scene-saas-platform-agent/maas-solution-design.md`
+  - 典型子场景提示：新租户上手向导、权限/流程配置诊断、运维/FinOps 分析助手、变更影响评估等。
 
 - 客服与服务云：
   - 智能客服 / 联络中心：
     - 架构：`scene-customer-support/architecture-overview.md`
     - AI 需求与价值：`scene-customer-support/ai-application-overview.md`
     - MaaS 方案：`scene-customer-support/maas-solution-design.md`
+  - 典型子场景提示：FAQ 自助问答、订单/账务查询、复杂问题升级单生成、自动质检和风险对话识别等。
 
 - 零售 & 电商：
   - 秒杀 / 大促旁路 AIAgent：
     - 架构：`scene-flash-sale-platform/architecture-overview.md`
     - AI 需求与价值：`scene-flash-sale-platform/ai-application-overview.md`
     - MaaS 方案：`scene-flash-sale-platform/maas-solution-design.md`
+  - 典型子场景提示：活动配置检查、实时异常巡检、活动复盘报告生成、运营问答助手等。
 
 - 开发者工具 / AI 原生工具链：
-  - Claude Code 风格 Coding OS：
+  - Coding OS / 开发者智能体工作台（类似 Claude Code）：
     - 架构：`scene-claude-code-assistant/architecture-overview.md`
     - AI 需求与价值：`scene-claude-code-assistant/ai-application-overview.md`
     - MaaS 方案：`scene-claude-code-assistant/maas-solution-design.md`
+  - 典型子场景提示：代码补全与重构、跨仓库代码/文档检索、CI 失败排查、变更摘要与 Release Note 生成等。
 
 - 个人助手与学习场景：
   - 个人助理 / 工作流助手：
@@ -39,8 +43,13 @@ last_updated: YYYY-MM-DD
   - 初学者 AIAgent Playground：
     - 架构：`scene-beginner-playground/architecture-overview.md`
     - AI 需求与价值：`scene-beginner-playground/ai-application-overview.md`
+  - 典型子场景提示：日程管理、邮件总结、资料整理、学习路径规划等。
 
-> 后续如需扩展到金融、医疗、制造等垂直行业，可以在这里新增分组，并在 `scene-*/` 目录中补充对应架构与方案文档。
+- 金融 / 医疗 / 制造等垂直行业：
+  - 金融：如智能投顾助手、风控规则分析、合规文档问答等。
+  - 医疗：如病历摘要、随访问卷整理、医学知识检索等。
+  - 制造：如设备告警分析、工单自动归因、质量问题复盘等。
+  - 若后续落地具体场景，可在 `scene-*/` 目录新建对应场景，并补充架构 / AI 需求 / MaaS 方案文档。
 
 ## 2. 通用决策与工程主线
 
@@ -53,11 +62,13 @@ last_updated: YYYY-MM-DD
   - 大模型厂商与版本选型：`aia-agent-architecture/decisions/0006-foundation-models-selection/`
   - Agent 测试与评估方案选型：`aia-agent-architecture/decisions/0007-agent-testing-strategy-selection/`
 
-## 3. 按 JD 视角的映射
+## 3. 视角映射
 
 - 「深入研究不同行业SaaS/AI原生软件」：
-  - SaaS 平台 / 客服 / 秒杀 / Coding OS ⇒ 对应以上场景分组。
+  - 上述场景分组中的 SaaS 平台、客服云、零售电商、大促、开发者工具等，分别对应 JD 中的 ERP/CRM/OA、客服、零售/营销、办公与开发工具赛道。
 - 「梳理各场景 AI 需求和价值」：
-  - 对应 `scene-*/ai-application-overview.md`。
+  - 对应 `scene-*/ai-application-overview.md`，以及本文件中为每组场景列出的典型子场景提示，可作为「场景清单」的入口。
 - 「端到端 MaaS 解决方案」：
-  - 对应 `scene-*/maas-solution-design.md` + 本目录后续的 POC 模板和案例文档。
+  - 对应 `scene-*/maas-solution-design.md` + `maas-poc-playbook-temp.md` + 各场景下的 POC 计划与案例文档。
+- 「能力沉淀和赋能」：
+  - 本文件负责给出「行业 / 赛道 → 典型场景清单 → 关联文档」的索引视图，配合 `aliyun-product-feedback-notes.md`
