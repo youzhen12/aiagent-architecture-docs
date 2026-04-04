@@ -37,6 +37,7 @@
 - `0005-engineering-design/`：工程设计主线，聚焦提示词工程、上下文工程、驭控工程（Harness Engineering）等工程性主题，用于沉淀「如何在真实项目中驱动和约束模型」的共性方法与实践。
 - `0006-foundation-models-selection/`：大模型厂商与版本选型，每个主流厂商一个子文档，对比 OpenAI、Anthropic Claude、Google Gemini、Meta Llama、Mistral、Qwen 等模型家族及其主要版本（能力、成本、多模态、上下文长度等），为各 `scene-*/architecture-overview.md` 中第 4 章的模型选型提供参考。
 - `0007-agent-testing-strategy-selection/`：Agent 测试与评估方案选型，聚焦如何设计 Eval 集、回归测试、在线指标、人审抽检、高危行为测试等，帮助在不同场景下选择合适的测试策略组合。
+- `0008-knowledge-store-and-retrieval-selection/`：知识存储与检索方式选型，梳理 grep / 传统全文检索、向量检索 + RAG、树状索引以及网络搜索在不同数据规模、结构、时效性要求下的适用场景与组合策略，为各场景的「知识库与检索」设计提供统一依据。
 
 此外，每个编号还对应一份「顶层 ADR 文档」：
 
@@ -47,6 +48,7 @@
 - `aia-agent-architecture/decisions/0005-engineering-design.md`
 - `aia-agent-architecture/decisions/0006-foundation-models-selection.md`
 - `aia-agent-architecture/decisions/0007-agent-testing-strategy-selection.md`
+- `aia-agent-architecture/decisions/0008-knowledge-store-and-retrieval-selection.md`
 
 约定：
 

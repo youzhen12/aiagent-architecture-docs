@@ -52,11 +52,12 @@ scene_id: scene-xxx
   - `aia-agent-architecture/decisions/0003-model-and-inference-service-selection.md`
   - `aia-agent-architecture/decisions/0006-foundation-models-selection.md`
 
-## 4.2 向量数据库与检索方案
+## 4.2 知识存储与检索方案
 
 - 选型结论：
 - 选择原因：
 - 参考决策文档：
+  - `aia-agent-architecture/decisions/0008-knowledge-store-and-retrieval-selection.md`
   - `aia-agent-architecture/decisions/0001-vector-db-selection.md`
 
 ## 4.3 Agent 编排框架
