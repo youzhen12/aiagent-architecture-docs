@@ -1,10 +1,17 @@
 ---
 title: 行业场景与文档映射总览
 status: draft
-version: 0.1.0
+version: 0.2.0
 owner: [负责人]
-last_updated: YYYY-MM-DD
+last_updated: 2026-04-14
+tags: [landscape, scenes, index]
 ---
+
+# 行业场景与文档映射总览
+
+> 本文档提供「行业/赛道 → 典型场景 → 关联文档」的索引视图，是 MaaS 方案资产的导航入口。
+> 
+> **相关文档**：[README](readme.md) | [POC 模板](maas-poc-playbook-temp.md) | [阿里云产品映射](aliyun-product-feedback-notes.md)
 
 ## 1. 场景分组总览（按 SaaS / 行业赛道）
 
@@ -69,6 +76,17 @@ last_updated: YYYY-MM-DD
 - 「梳理各场景 AI 需求和价值」：
   - 对应 `scene-*/ai-application-overview.md`，以及本文件中为每组场景列出的典型子场景提示，可作为「场景清单」的入口。
 - 「端到端 MaaS 解决方案」：
-  - 对应 `scene-*/maas-solution-design.md` + `maas-poc-playbook-temp.md` + 各场景下的 POC 计划与案例文档。
+  - 对应 `scene-*/maas-solution-design.md` + [maas-poc-playbook-temp.md](maas-poc-playbook-temp.md) + 各场景下的 POC 计划与案例文档。
 - 「能力沉淀和赋能」：
-  - 本文件负责给出「行业 / 赛道 → 典型场景清单 → 关联文档」的索引视图，配合 `aliyun-product-feedback-notes.md`
+  - 本文件负责给出「行业 / 赛道 → 典型场景清单 → 关联文档」的索引视图，配合 [aliyun-scene-mapping.md](aliyun-scene-mapping.md)（场景映射）和 [aliyun-product-feedback.md](aliyun-product-feedback.md)（产品反馈）形成完整资产。
+
+## 4. 相关文档
+
+| 文档 | 用途 |
+|------|------|
+| [README](readme.md) | 入口导航与使用指南 |
+| [POC 模板](maas-poc-playbook-temp.md) | 端到端 POC 设计模板 |
+| [场景映射](aliyun-scene-mapping.md) | 阿里云产品映射指南 |
+| [产品反馈](aliyun-product-feedback.md) | 产品机会点汇总 |
+| [标杆案例](cases/) | 场景实施案例 |
+| [变更日志](CHANGELOG.md) | 版本变更记录 |

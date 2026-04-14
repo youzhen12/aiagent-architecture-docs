@@ -1,12 +1,17 @@
 ---
 title: 端到端 MaaS POC / 测试策略模板
 status: draft
-version: 0.1.0
+version: 0.2.0
 owner: [负责人]
-last_updated: YYYY-MM-DD
+last_updated: 2026-04-14
+tags: [template, poc, testing]
 ---
 
-> 用途：针对任意一个场景（如 SaaS 平台、客服、秒杀等），快速设计一个 4–8 周可落地的 POC 计划与评估体系。
+# 端到端 MaaS POC / 测试策略模板
+
+> **用途**：针对任意一个场景（如 SaaS 平台、客服、秒杀等），快速设计一个 4–8 周可落地的 POC 计划与评估体系。
+> 
+> **相关文档**：[README](readme.md) | [场景族谱](scene-landscape.md) | [POC 计划示例](maas-poc-plan-customer-support.md)
 
 ## 1. POC 目标与范围
 
@@ -65,3 +70,13 @@ last_updated: YYYY-MM-DD
 
 - 识别 POC 期间可能出现的风险（错误回答、安全问题、成本失控等）；
 - 为每类风险定义回滚或降级策略（关闭某些 Agent、切换到只读模式等）。
+
+## 7. 相关文档
+
+| 文档 | 说明 |
+|------|------|
+| [README](readme.md) | 入口导航 |
+| [场景族谱](scene-landscape.md) | 场景索引 |
+| [客服 POC 计划](maas-poc-plan-customer-support.md) | 客服场景示例 |
+| [SaaS POC 计划](maas-poc-plan-saas-platform.md) | SaaS 场景示例 |
+| [场景映射](aliyun-scene-mapping.md) | 阿里云产品映射 |

@@ -1,10 +1,11 @@
 ---
 title: SaaS 平台内嵌 Agent 场景 MaaS POC 计划
 status: draft
-version: 0.1.0
+version: 0.2.0
 owner: [负责人]
-last_updated: 2026-04-02
-scenario: saas-platform-agent
+last_updated: 2026-04-14
+tags: [poc, saas-platform, plan]
+scene_id: scene-saas-platform-agent
 ---
 
 > 用途：面向「多租户 B2B SaaS 平台内嵌 Agent」场景，在 6–8 周内验证基于阿里云 Qwen + 百炼（Model Studio）的 Admin/Dev/Ops 助手机制在缩短上手时间、降低工单量、提升运维洞察方面的价值。
@@ -111,3 +112,12 @@ scenario: saas-platform-agent
 - 回滚预案：
   - 控制台保留「关闭 Copilot」开关，一键切回传统文档中心 + 工单流程；
   - 若发现严重安全/数据风险，可在网关层直接禁止相关 Agent 应用调用。
+
+## 7. 相关文档
+
+| 文档 | 说明 |
+|------|------|
+| [场景架构](../scene-saas-platform-agent/architecture-overview.md) | SaaS 场景技术架构 |
+| [MaaS 案例](../cases/saas-platform-maas-case.md) | SaaS 场景标杆案例 |
+| [场景映射](../aliyun-scene-mapping.md#1-saas-平台场景映射) | 阿里云产品映射 |
+| [POC 模板](../maas-poc-playbook-temp.md) | 通用 POC 设计模板 |

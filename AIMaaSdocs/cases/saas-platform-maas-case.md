@@ -1,9 +1,11 @@
 ---
-title: SaaS 平台内嵌 Agent 场景 AI MaaS 案例草稿
+title: SaaS 平台内嵌 Agent 场景 AI MaaS 案例
 status: draft
-version: 0.2.0
+version: 0.3.0
 owner: [负责人]
-last_updated: 2026-04-02
+last_updated: 2026-04-14
+tags: [case, saas-platform, maas]
+scene_id: scene-saas-platform-agent
 ---
 
 ## 1. 背景与挑战
@@ -81,3 +83,12 @@ last_updated: 2026-04-02
 - SaaS 平台通过「AI 原生」能力形成差异化卖点，提高续约率与增购率。
 
 > 注：本案例为通用模板，可在真实项目中替换为具体客户的行业背景、架构约束与量化指标，并结合安全合规要求进行裁剪。
+
+## 6. 相关文档
+
+| 文档 | 说明 |
+|------|------|
+| [场景架构](../scene-saas-platform-agent/architecture-overview.md) | SaaS 场景技术架构 |
+| [MaaS 方案](../scene-saas-platform-agent/maas-solution-design.md) | SaaS 场景 MaaS 设计 |
+| [POC 计划](../maas-poc-plan-saas-platform.md) | SaaS 场景 POC 实施计划 |
+| [场景映射](../aliyun-scene-mapping.md#1-saas-平台场景映射) | 阿里云产品映射 |

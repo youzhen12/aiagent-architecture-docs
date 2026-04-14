@@ -1,9 +1,11 @@
 ---
-title: 智能客服场景 AI MaaS 案例草稿
+title: 智能客服场景 AI MaaS 案例
 status: draft
-version: 0.2.0
+version: 0.3.0
 owner: [负责人]
-last_updated: 2026-04-02
+last_updated: 2026-04-14
+tags: [case, customer-support, maas]
+scene_id: scene-customer-support
 ---
 
 ## 1. 背景与挑战
@@ -68,3 +70,12 @@ last_updated: 2026-04-02
 - 对客服对话的结构化数据沉淀，为后续产品优化、运营洞察、风控策略提供输入。
 
 > 注：上述指标为参考范围，具体效果取决于行业类型、流程复杂度、与现有系统集成深度等，可在 POC 阶段通过对照实验和人为评估进行校准。
+
+## 6. 相关文档
+
+| 文档 | 说明 |
+|------|------|
+| [场景架构](../scene-customer-support/architecture-overview.md) | 客服场景技术架构 |
+| [MaaS 方案](../scene-customer-support/maas-solution-design.md) | 客服场景 MaaS 设计 |
+| [POC 计划](../maas-poc-plan-customer-support.md) | 客服场景 POC 实施计划 |
+| [场景映射](../aliyun-scene-mapping.md#2-智能客服场景映射) | 阿里云产品映射 |

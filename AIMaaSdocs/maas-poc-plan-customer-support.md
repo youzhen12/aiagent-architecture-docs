@@ -1,10 +1,11 @@
 ---
 title: 智能客服场景 MaaS POC 计划
 status: draft
-version: 0.1.0
+version: 0.2.0
 owner: [负责人]
-last_updated: 2026-04-02
-scenario: customer-support
+last_updated: 2026-04-14
+tags: [poc, customer-support, plan]
+scene_id: scene-customer-support
 ---
 
 > 用途：面向「智能客服」场景，在 6–8 周内验证基于阿里云 Qwen + 百炼（Model Studio）的 AI 客服方案在业务指标、体验与工程可行性上的价值，可直接用作对外 POC 计划文档骨架。
@@ -122,3 +123,12 @@ scenario: customer-support
 - 回滚预案：
   - 客户端保留「一键关闭 AI 客服」或「只做推荐、不自动回复」的开关；
   - 可随时将灰度流量切回传统流程，保证对生产业务影响可控。
+
+## 7. 相关文档
+
+| 文档 | 说明 |
+|------|------|
+| [场景架构](../scene-customer-support/architecture-overview.md) | 客服场景技术架构 |
+| [MaaS 案例](../cases/customer-support-maas-case.md) | 客服场景标杆案例 |
+| [场景映射](../aliyun-scene-mapping.md#2-智能客服场景映射) | 阿里云产品映射 |
+| [POC 模板](../maas-poc-playbook-temp.md) | 通用 POC 设计模板 |
