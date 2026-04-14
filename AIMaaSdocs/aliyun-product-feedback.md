@@ -77,10 +77,3 @@ tags: [aliyun, model-studio, feedback, opportunities]
 
 ---
 
-## 岗位 JD 对应说明
-
-| JD 要求 | 对应能力 |
-|---------|----------|
-| 结合千问/百炼/Agent 设计方案 | [场景映射文档](aliyun-scene-mapping.md) 按场景给出映射 |
-| 识别产品机会、给产品团队反馈 | 本文件各场景机会点 + 跨场景 F1-F7 |
-| 构建可复用知识资产 | 本文档 + 场景族谱 + POC 模板共同构成方案资产 |
